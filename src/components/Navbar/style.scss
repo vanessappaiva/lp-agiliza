@@ -1,0 +1,112 @@
+.navbar {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: medium;
+    font-size: 12pt;
+    line-height: 0.8rem;
+
+
+    .menuOptions {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+
+        li {
+            margin: 0.7rem;
+            padding-right: 0.2rem;
+            padding-left: 0.2rem;
+
+        }
+
+        .btn-login,
+        .btn-register {
+            padding: 1rem;
+            margin: 0.5rem;
+            border-radius: 1.5rem;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            transform: scale(0.9);
+            transition: ease-in-out all 0.4s;
+
+            &:hover{
+                transform: scale(1);
+                cursor: pointer;
+            }
+        }
+
+        .btn-login {
+            border: 2px solid #00D46F;
+            background-color: #fff;
+            color: black;
+        }
+
+        .btn-register {
+            border-width: 2px;
+            background-color: #1B1C34;
+            color: white;
+        }
+
+
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .menuOptions {
+          display: none;
+
+    
+          &.mobile-menu {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 70px; // Ajuste conforme necessário
+            left: 0;
+            width: 100%;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.363);
+    
+            ul {
+              flex-direction: column;
+    
+              li {
+                margin: 0.5rem;
+              }
+            }
+    
+            .btn-login,
+            .btn-register {
+              width: auto;
+              margin: 0.5rem;
+            }
+          }
+    
+          .mobile-menu-open {
+            .menuOptions.mobile-menu {
+              display: flex;
+            }
+          }
+        }
+    
+        .hamburger-menu {
+          display: flex;
+          flex-direction: column;
+          cursor: pointer;
+    
+          .bar {
+            height: 2px;
+            width: 20px;
+            background-color: #000;
+            margin: 2px 0;
+          }
+        }
+      }
+
+
+}

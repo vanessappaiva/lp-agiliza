@@ -1,0 +1,123 @@
+.about {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .center-div {
+        display: flex;
+        justify-content: center;
+
+        .img-about {
+            max-width: 25vw;
+        }
+    }
+
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: left;
+
+        .title-about {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20pt;
+            line-height: 2rem;
+            color: #1b1c34;
+            text-align: left;
+
+            .highlight-green {
+                color: #00d46f;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: -10px; // Ajuste conforme necessário
+                top: 50%;
+                height: 100%;
+                width: 2px;
+                /* Largura da linha */
+                background-color: #00d46f;
+                /* Cor da linha */
+                transform: translateY(-50%);
+            }
+        }
+
+
+
+        .text-about {
+            margin-bottom: 2rem;
+            text-align: left;
+            font-weight: 500;
+            font-size: 12pt;
+            line-height: 1rem;
+            color: #1b1c34;
+        }
+
+        .btn-about {
+            margin-top: 2rem;
+            font-weight: 500;
+            font-size: 9pt;
+            line-height: 1rem;
+            color: #fff;
+            padding: 1rem;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: scale(0.9);
+            transition: ease-in-out all 0.4s;
+
+            border: 2px solid #1b1c34;
+            background-color: #1b1c34;
+
+            &:hover {
+                transform: scale(1);
+                cursor: pointer;
+            }
+
+            .icon-btn {
+                margin-left: 0.5rem;
+                padding: 0.2rem;
+                border-radius: 0.5rem;
+            }
+        }
+
+        .botoes {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            justify-content: left;
+            align-items: flex-start;
+            /* Alteração aqui para alinhar à esquerda */
+
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                justify-self: left;
+                text-decoration: none;
+                color: #1b1c34;
+                padding: 0.3rem;
+                margin-bottom: 1rem;
+                font-weight: 500;
+                cursor: pointer;
+
+                .icon {
+                    margin-right: 0.5rem;
+                    padding: 1rem;
+                }
+            }
+        }
+
+
+
+    }
+
+
+}

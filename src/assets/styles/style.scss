@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Epilogue", "sans serif" !important;
+}
+
+/* Meyer's Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Adiciona o reset para elementos que podem ter estilos herdados */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Adiciona o reset para elementos que podem ter fontes alteradas no IE */
+body {
+  line-height: 1;
+}
+
+/* Remove a borda do hyperlink no IE 10/11 */
+a {
+  border: 0;
+}
+
+/* Adiciona a correção para as fontes do tipo "bold" no Safari e Chrome */
+b, strong {
+  font-weight: bold;
+}
+
+/* Reinicializa elementos que podem ter estilos herdados ao longo do tempo, adicionando apenas borda ou espaçamento necessário. */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+}
+
+/* Remove a aparição do ícone de seleção padrão no IE 10/11 */
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Remove o espaçamento e a exibição de opções no IE 10/11 */
+option {
+  margin: 0;
+  padding: 0;
+}
+
+/* Adiciona o reset para grupos de opções no IE 10/11 */
+optgroup {
+  font-weight: bold;
+}
