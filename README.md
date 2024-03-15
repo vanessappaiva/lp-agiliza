@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Projeto de Landing Page em React - Agiliza Doutor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de Landing Page desenvolvido em React, utilizando Sass para estilização. A página será construída com base em componentes localizados na pasta `src/components`, sendo a página Home localizada em `src/pages/Home`. A sequência de componentes na construção da página Home será a seguinte: Navbar, Hero, About, Flow, Partners, Journey, How it Works, e Footer.
 
-## Available Scripts
+## Layout
 
-In the project directory, you can run:
+O layout da Landing Page está disponível no Figma no seguinte link: [Layout da Landing Page](https://www.figma.com/proto/Z7WmQ6Ie4PijwMJxE8PsZz/Site-Agiliza-doutor?type=design&node-id=128-4&t=M54jmdZPyGLtohZh-0&scaling=min-zoom&page-id=116%3A3).
 
-### `npm start`
+## Estrutura do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A estrutura do projeto é a seguinte:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+src/
+|-- components/              # Componentes reutilizáveis
+|   |-- Navbar.jsx          # Componente Navbar
+|   |-- Hero.jsx            # Componente Hero
+|   |-- About.jsx           # Componente About
+|   |-- Flow.jsx            # Componente Flow
+|   |-- Partners.jsx        # Componente Partners
+|   |-- Journey.jsx         # Componente Journey
+|   |-- HowWorks.jsx        # Componente How it Works
+|   |-- Footer.jsx          # Componente Footer
+|-- pages/                   # Páginas da aplicação
+|   |-- Home/                # Página Home
+|-- styles/                  # Arquivos de estilos (Sass)
+```
 
-### `npm test`
+## Execução do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para executar o projeto, siga os seguintes passos:
 
-### `npm run build`
+1. Clone este repositório: `git clone url_do_repositorio`
+2. Instale as dependências: `npm install`
+3. Execute o projeto: `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Autor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto foi desenvolvido por Agiliza Doutor.
